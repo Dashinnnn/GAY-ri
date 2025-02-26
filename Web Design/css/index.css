@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    height: 90px;
+    line-height: 40px;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    height: 80px;
+    background-image: linear-gradient(to right, white, #18692e);
+    position: sticky;
+    overflow: hidden;
+}
+
+ul {
+    padding-right: 30px;
+    padding-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a { 
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hook {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    padding: 30px;
+    padding-left: 50px;
+    color: #4E9F3D;
+}
+
+.hook-span {
+    color:#1E5128;
+}
+
+.id-section {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+
+}
+
+.card {
+    padding-left:60px ;
+}
+
+.card img {
+    float: left;
+    padding-right: 20px;
+    height: 180px;
+}
+.card-content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100px;
+}
+
+.card-content h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.card-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    padding-top: 30px;
+}
+
+footer {
+    height: 80px;
+    background-color: #1E5128;
+    text-align: right;
+    padding: 0;
+}
+
+footer p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 100px;
+    padding-right: 20px;
+}
+
+
+
+.check {
+    display: none;
+}
